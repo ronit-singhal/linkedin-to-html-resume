@@ -27,7 +27,6 @@ This project is a web application that generates an HTML resume from a LinkedIn 
 - Frontend: HTML, CSS, JavaScript
 - PDF Processing: PDFplumber
 - AI Integration: OpenAI API
-- Deployment: GitHub Pages
 
 ## How It Works
 
@@ -64,7 +63,7 @@ To run this project locally, follow these steps:
    uvicorn main:app --reload
    ```
 
-2. Open your web browser and navigate to `http://localhost:8000`.
+2. Open your web browser and navigate to `http://127.0.0.1:8000`.
 
 3. Upload your LinkedIn PDF and enter your OpenAI API key.
 
